@@ -6,7 +6,7 @@ while(attempt<=5):
     guess_num=int(input("Enter your guessing number: \n"))
     if guess_num>x:
         print("Please enter lesser no.\n")
-    elif guess_num<x:
+    elif guess_num<14:
         print("Please enter greaterno.\n")
     else:
         print("You won \n")
